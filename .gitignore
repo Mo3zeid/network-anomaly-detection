@@ -1,0 +1,71 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+logs/
+
+# Data files (too large for GitHub)
+data/raw/
+data/processed/
+*.csv
+*.parquet
+
+# Models are INCLUDED (important for project)
+# Only exclude if using Git LFS
+
+
+# Keep model metadata
+!models/model_features.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Node.js (frontend)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# Cloud credentials (NEVER commit these)
+*.json
+!package.json
+!package-lock.json
+!models/model_features.json
+credentials/
+service-account*.json
+
+# Test coverage
+.coverage
+htmlcov/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
